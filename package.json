@@ -1,0 +1,30 @@
+{
+  "name": "pkg-generator",
+  "version": "1.0.0",
+  "description": "Generate NPM Package",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "generator"
+  ],
+  "author": "zhiyelee",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^0.5.1",
+    "commander": "^2.6.0",
+    "file-utils": "^0.2.2",
+    "mkdirp": "^0.5.0",
+    "swig": "^1.4.2"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zhiyelee/pkg-gererator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zhiyelee/pkg-gererator/issues"
+  },
+  "homepage": "https://github.com/zhiyelee/pkg-gererator"
+}
