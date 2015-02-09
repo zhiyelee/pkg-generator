@@ -1,6 +1,7 @@
 # pkg-generator
 [![NPM Version](http://img.shields.io/npm/v/pkg-generator.svg?style=flat)](https://www.npmjs.org/package/pkg-generator)
 [![NPM Downloads](https://img.shields.io/npm/dm/pkg-generator.svg?style=flat)](https://www.npmjs.org/package/pkg-generator)
+
 Generate  NPM Package
 
 ## Installation
