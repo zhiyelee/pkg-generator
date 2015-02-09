@@ -2,11 +2,22 @@ var app = require('commander')
  , chalk = require('chalk')
  , path = require('path')
  , swig  = require('swig')
+ , pkgs = require('./package.json')
  , file = require('file-utils');
 
 // @todo custom
 app
   .version('1.0.0')
+  .on('--help', function () {
+    var info = [
+      '  Examples:'
+      , ''
+      , '    ' + pkgs.name + ' pkgName'
+      , ''
+    ];
+
+    console.log(info.join('\n'));
+  })
   .parse(process.argv);
 
 var pkgName = app.args[0]
