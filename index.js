@@ -6,7 +6,6 @@ var app = require('commander')
  , pkgs = require('./package.json')
  , file = require('file-utils');
 
-// @todo custom
 app
   .version('1.0.0')
   .on('--help', function () {
@@ -32,8 +31,8 @@ if (!pkgName) {
   process.exit(1)
 }
 
-var tplDir = path.resolve(__dirname, './template/');
-var pkgDir = path.resolve(process.cwd(), pkgName)
+var tplDir = path.resolve(__dirname, './template/')
+  , pkgDir = path.resolve(process.cwd(), pkgName);
 
 file
   .expand(
@@ -52,4 +51,3 @@ function render(str) {
     pkg: pkgName
   })
 }
-
