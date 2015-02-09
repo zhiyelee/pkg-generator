@@ -3,11 +3,13 @@
   "version": "1.0.0",
   "description": "Generate NPM Package",
   "main": "index.js",
+  "bin": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "generator"
+    "generator",
+    "npm package generator"
   ],
   "author": "zhiyelee",
   "license": "MIT",

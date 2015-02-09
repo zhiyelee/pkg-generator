@@ -1,3 +1,4 @@
+#! /usr/bin/env node
 var app = require('commander')
  , chalk = require('chalk')
  , path = require('path')
