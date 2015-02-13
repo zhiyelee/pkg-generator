@@ -1,11 +1,14 @@
 {
   "name": "{{pkg}}",
   "version": "1.0.0",
-  "description": "",
+  "description": "description here",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/ur_gh_account/{{pkg}}.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ur_gh_account/{{pkg}}/issues"
   },
   "keywords": [],
   "author": {
